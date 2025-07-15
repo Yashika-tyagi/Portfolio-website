@@ -1,0 +1,105 @@
+/* Portfolio background image */
+.bgimage{
+    height:700px;
+    background: url('pageee.png');
+    background-size: cover;
+    position: relative;
+
+   
+
+}
+.hehe{
+    background-color:black;
+    color:white
+   
+
+  
+}
+.font-style{
+    font-style: italic;
+    font-weight: bold;
+    color: gray;
+    font-size: 2.5rem;
+}
+.first{
+     font-size: 4rem;
+    
+
+}
+.image{
+    height: 700px;
+    background: url('about me.webp') no-repeat center center;
+    position:relative;
+    overflow:hidden;
+    transition-property: opacity;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+
+}
+.image:hover{
+    opacity:0.4;
+}
+.me{
+    background-color: beige;
+}
+.col-lg-8{
+    font-style: italic;
+    font-size: 2.5rem;
+
+}
+.card.servicesText{
+    height:280px;
+    cursor:pointer;
+    background-color: pink
+}
+.good{
+    background:url('ser.webp');
+    position:relative;
+    height:700px;
+}
+.card-title{
+    text-align:center;
+}
+.card:hover .servicesIcon{
+    color:white;
+}
+.servicesText:hover{
+    border:4px solid aquamarine;
+}
+.text-center{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+.social-icons{
+    font-size:36px;
+    cursor:pointer;
+}
+
+#footer{
+    background-color: grey;
+}
+.lady{
+    height:200px;
+    width:200px;
+    animation-name: lady;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    display:block;
+    transform-style: preserve-3d;
+    border: 2px solid grey;
+}
+@keyframes lady{
+    from{
+       transform: rotateY(-50deg);
+
+    }
+    to{
+        transform: rotateY(50deg);
+
+    }
+}
